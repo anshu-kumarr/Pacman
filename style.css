@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+html, body {
+  margin: 10;
+  padding: 10;
+  font-family: 'Roboto Mono', monospace;
+}
+html { overflow-y: hidden; }
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 616px;
+  height: 616px;
+  border: solid black;
+  margin: 0 auto;
+}
+
+h1{
+  text-align: center;
+}
+
+.grid div {
+  width: 22px;
+  height: 22px;   
+}
+
+.pac-dot {
+  background-color: green;
+  border: 5px solid white;
+  box-sizing: border-box;
+}
+
+.wall {
+  background-color: blue;
+}
+
+.power-pellet {
+  background-color: green;
+  border-radius: 7.5px;
+}
+
+.pacman {
+  background-color: orange;
+  border-radius: 7.5px;
+  border: none;
+}
+
+.g1{
+  background-color: red;
+  border: none;
+}
+.g2{
+background-color: pink;
+border:none;
+}
+.g3{
+background-color: yellow;
+border: none;
+}
+.g4{
+background-color: orange;
+border: none
+}
+.scared{
+  background-color: aquamarine;
+  border: none;
+}
